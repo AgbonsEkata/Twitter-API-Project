@@ -24,23 +24,5 @@ In the data wrangling process, I only focus on original tweets by WeRateDogs tha
 - Scipy
 - Twitter API
 
-## Installation
-To get the Jupyter Notebook running, execute the following in the command line and select `wrangle_act.ipynb` from the Jupyter Notebook dashboard. The conda environment setup is optional; I have provided the base environment in `base.yaml`.
-```
-$ git clone https://github.com/evanchen13/weratedogs.git
-$ cd weratedogs
-$ conda env create -f base.yaml
-$ jupyter notebook
-```
 
-`image-predictions.tsv` is provided in this repository, but can be downloaded programmatically as shown in the code. Similarly, `tweet_json.txt` is provided in this repository, but can be downloaded programmatically using the Twitter API. This requires a developer account. To apply for access, visit this [link](https://developer.twitter.com/en/apply-for-access) and click the "Apply for a developer account" button. Then, be sure to edit the following lines in cell 5:
-```
-consumer_key = 'CONSUMER_KEY'
-consumer_secret = 'CONSUMER_SECRET'
-access_token = 'ACCESS_TOKEN'
-access_secret = 'ACCESS_SECRET'
-```
-
-## License
-The contents of this repository are covered under the [GNU General Public License v3.0](https://github.com/evanchen13/weratedogs/blob/master/LICENSE).
 
